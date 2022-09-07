@@ -1,0 +1,55 @@
+header{
+    width: 100%;
+    height:100px;
+    background-color: #0D0D2B;
+    color: #ffffff;
+}
+
+header .navbar{
+    max-width: 1240px;
+    height: 100%;
+    padding: 0 1rem;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-self: start;
+}
+
+.nav-item{
+    padding: 0 1.5rem;
+}
+
+.nav-link{
+    color: #ffffff;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+}
+
+.btn-register{
+    margin: 0 1.5rem;
+}
+.btn-login{
+    margin-right: 1.5rem;
+}
+.hamburger{
+    display: none;
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+}
+

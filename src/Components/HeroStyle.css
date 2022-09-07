@@ -1,0 +1,153 @@
+.Container{
+    width: 100%;
+    height: 100vh;
+    
+    /* margin-left: 50%; */
+
+}
+
+.hero{
+    max-width: 1240px;
+    padding: 0 1rem;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 139px;
+}
+
+.col-1{
+    color: #ffffff;
+    
+}
+.wrap{
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 32px;
+    width: 365px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.col-1 .save{
+    position: absolute;
+    padding: 8px;
+    background-color: #ffffff;
+    color: #222222;
+    width: 120px;
+    text-align: center;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    /* line-height: 150%; */
+    /* identical to box height, or 24px */
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #0D0D2B;
+        
+}
+.col-1 .blackFriday{
+    background-color:transparent;
+    color: #ffffff;
+    width: 300px;
+    text-align:end;
+    padding: 4px;
+    margin-left: 46px;
+    border-radius: 20px;
+    position: absolute;
+    top: 1px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+    letter-spacing: 0.01em;
+
+}
+
+.col-2 img{
+    width: 100%;
+}
+
+.col-1 h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    width: 508px;
+    margin-bottom: 24px;
+
+}
+
+.buySellCrypto{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+}
+/* 
+.hero .container{
+    max-width: 1240px;
+    padding: 0 1rem;
+    margin: auto;
+} */
+
+/* .hero .content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} */
+
+/* .hero .col-1{
+    padding: 1rem 1rem 1rem 0;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.hero .col-1 h1{
+    /* font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    width: 588px;
+    height: 228px;
+    left: 120px;
+    top: 307px; */
+
+    /* Heading / H1 */
+/* 
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px; */
+
+    /* Neutral / White */
+
+    /* color: #FFFFFF; */
+}
+
+/* .hero .col-1 p{
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.4;
+    margin-top: 1.2rem;
+} */
+/* 
+@media screen  and (max-width:960px){
+    .hero{
+        height: auto;
+        width: 100%;
+    }
+
+    .hero .container{
+        padding: 0 1rem;
+    }
+
+
+} */
