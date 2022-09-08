@@ -77,13 +77,18 @@ const Hero = () => {
         </Row>
 
         <Row>
-            <div className='wrapper'>
+            <div className='wrapper mb-5'>
                 <div className='calculate'>
                     <input placeholder='Enter your harsh rate'></input>
                     <select className='selector'>
                         <option value="">TH/s</option>
                     </select>
-                    <button>Calculate</button>
+                    <button className='button btn-calculate'>Calculate</button>
+                </div>
+                <div className='revenue'>
+                    <p className='estimated'>ESTIMATED 24 HOUR REVENUE:</p>
+                    <p className='eth'>0.055 130 59 ETH <span>($1275)</span></p>
+                    <p className='ethPrice'>Revenue will change based on mining difficulty and Ethereum price.</p>
                 </div>
             </div>
         </Row>

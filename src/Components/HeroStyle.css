@@ -234,6 +234,7 @@ color: #E0E0E0;
     text-align: center;
     color: #ffffff;
     margin-top:200px ;
+    margin-bottom: 64px;
 }
 
 .check h1{
@@ -259,8 +260,14 @@ color: #E0E0E0;
 
 }
 .wrapper{
-    margin-top: 64px;
+    width: 942px;
+    filter: drop-shadow(0px 20px 200px rgba(57, 23, 119, 0.05));
+    background-color: #ffffff;
+    align-items: center;
+    text-align: center;
+    margin: auto;
     margin-bottom: 64px;
+    border-radius: 12px;
 }
 .calculate{
     width: 942px;
@@ -270,9 +277,10 @@ color: #E0E0E0;
     margin: auto;
     align-items: center;
     text-align: center;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     padding-top: 62px;
     padding-bottom: 55px;
+   
 }
 
 .calculate input{
@@ -309,13 +317,61 @@ color: #E0E0E0;
     border-bottom: 1px solid #E0E0E0;
 
 }
+.btn-calculate{
+    background-color: #3671E9 !important;
+}
 
+.revenue{
+   text-align: start;
+   padding-left: 48px; 
+}
 
+.revenue .estimated{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #3671E9;
+    width: 260px;
+    height: 24px;
+    left: 297px;
+    top: 2220px;
+}
 
+.revenue .eth{
+    width: 624px;
+    height: 48px;
+    left: 297px;
+    top: 2260px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #0D0D2B;
+}
 
+span{
+    color: #0563bb;
+}
 
-
-
+.revenue .ethPrice{
+    width: 516px;
+    height: 28px;
+    left: 297px;
+    top: 2312px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #828282;
+}
 
 
 
