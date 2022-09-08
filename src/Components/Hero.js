@@ -5,6 +5,7 @@ import whyCrappo3 from '../Images/whyCrappo3.png'
 import bitcoin from '../Images/bitcoin.png'
 import eth from '../Images/eth.png'
 import litcoin from '../Images/litcoin.png'
+import tradeIncrease from '../Images/tradeIncrease.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -121,8 +122,18 @@ const Hero = () => {
             </div>
         </Row>
 
-        <Row>
-
+        <Row className='market'>
+            <div className='marketSentiment'>
+                <p>Market sentiments, portfolio, and run the infrastructure of your choice</p>
+            </div>
+            <div className='investSmart'>
+                <div className='investDetails'>
+                    <p className='Inv'>Invest Smart</p>
+                    <p className='getFull'>Get full statistic information about the behaviour of <br /> buyers and sellers will help you to make the decision. </p>
+                    <button className=' button btn-invest'>Learn More</button>
+                </div>
+                <div><img src={tradeIncrease} alt='' /></div>
+            </div>
         </Row>
 
     </Container>
