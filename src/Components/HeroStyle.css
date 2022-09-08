@@ -495,6 +495,8 @@ opacity: 0.7;
 .investDetails{
     text-align: start;
     width: 454px;
+    padding: 0 1rem;
+    margin: 0 6rem;
     /* color: #ffffff; */
 }
 .investDetails .Inv{
@@ -507,6 +509,7 @@ opacity: 0.7;
     line-height: 150%;
     color: #FFFFFF;
     padding-bottom: 24px;
+    padding-top: 40px;
 }
 
 .investDetails .getFull{
@@ -521,6 +524,100 @@ opacity: 0.7;
     color: #E0E0E0;
     padding-bottom: 34px;
 }
+
+.investSmart img{
+    width:100%;
+    /* height: 427px; */
+}
+
+.detailedStatistic{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 115px;
+}
+
+.investDetails .detailed{
+    width: 454px;
+    top: 360px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+    padding-top: 110px;
+}
+.growYourProfit{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    margin-top: 130px;
+}
+
+.growYourProfit img{
+    width: 682px;
+}
+.profitGrowth{
+    text-align: start;
+    width: 454px;
+    padding: 0 1rem;
+    /* margin: 0 6rem; */
+    /* color: #ffffff; */
+}
+.profitGrowth .Inv{
+    width: 454px;
+    top: 360px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+
+.profitGrowth .getFull{
+    width: 408px;
+    top: 432px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+    padding-bottom: 34px;
+}
+
+.startMining{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    text-align: start;
+    margin-top: 188px;
+    /* justify-content: space-between; */
+}
+
+.startMining .mineNow{
+    width: 501px;
+    height: 48px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+
+
+
+
+
+
 /* 
 .hero .container{
     max-width: 1240px;
@@ -541,7 +638,7 @@ opacity: 0.7;
     justify-content: center;
 } */
 
-.hero .col-1 h1{
+
     /* font-size: 42px;
     font-weight: 700;
     color: #fff;
@@ -561,7 +658,7 @@ opacity: 0.7;
     /* Neutral / White */
 
     /* color: #FFFFFF; */
-}
+
 
 /* .hero .col-1 p{
     font-size: 1rem;

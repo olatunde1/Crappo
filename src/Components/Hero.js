@@ -6,6 +6,8 @@ import bitcoin from '../Images/bitcoin.png'
 import eth from '../Images/eth.png'
 import litcoin from '../Images/litcoin.png'
 import tradeIncrease from '../Images/tradeIncrease.png'
+import Statistic from '../Images/Statistic.png'
+import grow from '../Images/grow.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -133,6 +135,35 @@ const Hero = () => {
                     <button className=' button btn-invest'>Learn More</button>
                 </div>
                 <div><img src={tradeIncrease} alt='' /></div>
+            </div>
+            <div className='detailedStatistic'>
+                <div><img src={Statistic} alt='' /></div>
+                <div className='investDetails'>
+                    <p className='detailed'>Detailed Statistics</p>
+                    <p className='getFull'>View all mining related information in realtime, at any point at any location and decide which polls you want <br /> to mine in.</p>
+                    <button className=' button btn-invest'>Learn More</button>
+                </div>
+                
+            </div>
+            <div className='growYourProfit'>
+                <div className='profitGrowth'>
+                    <p className='Inv'>Grow your profit and track <br /> your investments</p>
+                    <p className='getFull'>Use advanced analytical tools. Clear Trading View<br /> charts let you track current and historical profit <br /> investments.</p>
+                    <button className=' button btn-invest'>Learn More</button>
+                </div>
+                <div><img src={grow} alt=''/></div>
+            </div>
+            <div>
+                <div className='startMining'>
+                    <div>
+                        <p className='mineNow'>Start mining now</p>
+                        <p className='joinNow'>Join now with CRAPPO to get the latest news<br /> and start mining now</p>
+                    </div>
+                    <div>
+                         <input placeholder='Enter your harsh rate'></input>
+                         <button className=' button btn-invest'>Subscribe</button>
+                    </div>
+                </div>
             </div>
         </Row>
 
