@@ -2,6 +2,9 @@ import React from 'react'
 import invest from '../Images/invest.png'
 import whyCrappo2 from '../Images/whyCrappo2.png'
 import whyCrappo3 from '../Images/whyCrappo3.png'
+import bitcoin from '../Images/bitcoin.png'
+import eth from '../Images/eth.png'
+import litcoin from '../Images/litcoin.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -95,19 +98,22 @@ const Hero = () => {
                 <div className='secureTrade'>
                     <p>Trade securely and market the high growth cryptocurrencies.</p>
                     <div>
-                        <div>
+                        <div className='bitcoin'>
+                            <img src={bitcoin} alt='' />
                             <p>Bitcoin <span>BTC</span></p>
                             <p>Digital currency in which a record of transactions is maintained.</p>
                             <button className='button btn-start-mining'>Start mining</button>
                         </div>
-                        <div>
+                        <div className='eth'>
+                            <img src={eth} alt='' />
                             <p>Ethereum <span>ETH</span></p>
                             <p>Blockchain technology to create and run decentralized digital applications.</p>
                             <button className='button btn-start-mining'>Start mining</button>
                         </div>
-                        <div>
-                            <p>Bitcoin <span>BTC</span></p>
-                            <p>Digital currency in which a record of transactions is maintained.</p>
+                        <div className='litcoin'>
+                            <img src={litcoin} alt='' />
+                            <p>Litecoin<span>LTC </span></p>
+                            <p>Cryptocurrency that enables instant payments to anyone in the world.</p>
                             <button className='button btn-start-mining'>Start mining</button>
                         </div>
                     </div>
