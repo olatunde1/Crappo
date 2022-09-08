@@ -272,7 +272,7 @@ color: #E0E0E0;
 .calculate{
     width: 942px;
     /* height: 305px; */
-    padding: 0 1rem;
+    padding: 0 3rem;
     display: flex;
     margin: auto;
     align-items: center;
@@ -313,7 +313,7 @@ color: #E0E0E0;
     line-height: 150%;
     color: #0D0D2B;
     mix-blend-mode: normal;
-    margin-right: 48px;
+    margin-right: 3rem;
     border-bottom: 1px solid #E0E0E0;
 
 }
@@ -323,7 +323,8 @@ color: #E0E0E0;
 
 .revenue{
    text-align: start;
-   padding-left: 48px; 
+   padding-left: 3rem;
+   padding-bottom: 3rem;
 }
 
 .revenue .estimated{
@@ -335,6 +336,7 @@ color: #E0E0E0;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #3671E9;
+    margin-bottom: 16px;
     width: 260px;
     height: 24px;
     left: 297px;
@@ -351,11 +353,12 @@ color: #E0E0E0;
     font-weight: 700;
     font-size: 32px;
     line-height: 150%;
+    margin-bottom: 4px;
     letter-spacing: 0.04em;
     color: #0D0D2B;
 }
 
-span{
+.ethFigure{
     color: #0563bb;
 }
 
@@ -373,6 +376,9 @@ span{
     color: #828282;
 }
 
+.wrapWrapperSecure{
+    background-color: #b12929;
+}
 
 
 

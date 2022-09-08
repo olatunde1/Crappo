@@ -76,21 +76,47 @@ const Hero = () => {
             <p className='harshRate'>Let’s check your hash rate to see how much you will earn today, <br /> Exercitation veniam consequat sunt nostrud amet.</p>
         </Row>
 
-        <Row>
-            <div className='wrapper mb-5'>
-                <div className='calculate'>
-                    <input placeholder='Enter your harsh rate'></input>
-                    <select className='selector'>
-                        <option value="">TH/s</option>
-                    </select>
-                    <button className='button btn-calculate'>Calculate</button>
+        <Row>       
+            <div className='wrapWrapperSecure'>
+                <div className='wrapper mb-5'>
+                    <div className='calculate'>
+                        <input placeholder='Enter your harsh rate'></input>
+                        <select className='selector'>
+                            <option value="">TH/s</option>
+                        </select>
+                        <button className='button btn-calculate'>Calculate</button>
+                    </div>
+                    <div className='revenue'>
+                        <p className='estimated'>ESTIMATED 24 HOUR REVENUE:</p>
+                        <p className='eth'>0.055 130 59 ETH <span className='ethFigure'>($1275)</span></p>
+                        <p className='ethPrice'>Revenue will change based on mining difficulty and Ethereum price.</p>
+                    </div>
                 </div>
-                <div className='revenue'>
-                    <p className='estimated'>ESTIMATED 24 HOUR REVENUE:</p>
-                    <p className='eth'>0.055 130 59 ETH <span>($1275)</span></p>
-                    <p className='ethPrice'>Revenue will change based on mining difficulty and Ethereum price.</p>
+                <div className='secureTrade'>
+                    <p>Trade securely and market the high growth cryptocurrencies.</p>
+                    <div>
+                        <div>
+                            <p>Bitcoin <span>BTC</span></p>
+                            <p>Digital currency in which a record of transactions is maintained.</p>
+                            <button className='button btn-start-mining'>Start mining</button>
+                        </div>
+                        <div>
+                            <p>Ethereum <span>ETH</span></p>
+                            <p>Blockchain technology to create and run decentralized digital applications.</p>
+                            <button className='button btn-start-mining'>Start mining</button>
+                        </div>
+                        <div>
+                            <p>Bitcoin <span>BTC</span></p>
+                            <p>Digital currency in which a record of transactions is maintained.</p>
+                            <button className='button btn-start-mining'>Start mining</button>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </Row>
+
+        <Row>
+
         </Row>
 
     </Container>
