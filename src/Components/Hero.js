@@ -96,24 +96,24 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='secureTrade'>
-                    <p>Trade securely and market the high growth cryptocurrencies.</p>
-                    <div>
-                        <div className='bitcoin'>
+                    <p className='trade'>Trade securely and market the high growth cryptocurrencies.</p>
+                    <div className='crypto'>
+                        <div className='bitCoin'>
                             <img src={bitcoin} alt='' />
-                            <p>Bitcoin <span>BTC</span></p>
-                            <p>Digital currency in which a record of transactions is maintained.</p>
+                            <p className='coinText'>Bitcoin <span className='coinTextspan'>BTC</span></p>
+                            <p className='cryptNarrate'>Digital currency in which a record of transactions is maintained.</p>
                             <button className='button btn-start-mining'>Start mining</button>
                         </div>
-                        <div className='eth'>
+                        <div className='eTh'>
                             <img src={eth} alt='' />
-                            <p>Ethereum <span>ETH</span></p>
-                            <p>Blockchain technology to create and run decentralized digital applications.</p>
+                            <p className='coinText'>Ethereum <span className='coinTextspan' >ETH</span></p>
+                            <p className='cryptNarrate'>Blockchain technology to create and run decentralized digital applications.</p>
                             <button className='button btn-start-mining'>Start mining</button>
                         </div>
-                        <div className='litcoin'>
+                        <div className='litCoin'>
                             <img src={litcoin} alt='' />
-                            <p>Litecoin<span>LTC </span></p>
-                            <p>Cryptocurrency that enables instant payments to anyone in the world.</p>
+                            <p className='coinText'>Litecoin <span className='coinTextspan'>LTC </span></p>
+                            <p className='cryptNarrate'>Cryptocurrency that enables instant payments to anyone in the world.</p>
                             <button className='button btn-start-mining'>Start mining</button>
                         </div>
                     </div>

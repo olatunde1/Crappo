@@ -377,17 +377,85 @@ color: #E0E0E0;
 }
 
 .wrapWrapperSecure{
-    background-color: #b12929;
+    background-color: #ffffff;
+}
+.secureTrade{
+    padding: 0 4rem;
+    margin: auto;
+}
+.secureTrade .trade{
+    padding: 0 1rem;
+    display: flex;
+    margin: auto;
+    width: 641px;
+    height: 120px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #0D0D2B;
+    margin-bottom: 4rem;
 }
 
 
 
 
+.crypto{
+    display: flex;
+}
 
+.crypto img{
+    margin-bottom: 48px;
+}
 
+.coinText{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 150%;
+text-align: center;
+color: #0D0D2B;
+margin-bottom: 1rem;
+}
 
+.coinTextspan{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: #BDBDBD;
+opacity: 0.7;
+}
 
+.btn-start-mining{
+    background-color: #3671E9 !important;
+}
 
+.bitCoin,
+.eTh,
+.litCoin{
+    width: 370px;
+    height: 433px;
+    background: #ffffff;
+    backdrop-filter: blur(250px);
+    border-radius: 16px;
+    margin-right: 45px;
+    text-align: center;
+    padding: 48px 24px ;
+}
+
+.bitCoin:hover,
+.eTh:hover,
+.litCoin:hover{
+    background: #2B076E;
+    color: #ffffff;
+    
+}
 
 
 /* 
