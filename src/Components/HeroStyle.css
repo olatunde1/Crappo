@@ -76,7 +76,7 @@
     font-weight: 700;
     font-size: 64px;
     line-height: 76px;
-    width: 508px;
+    width: 588px;
     margin-bottom: 24px;
 
 }
@@ -89,7 +89,245 @@
     line-height: 28px;
     letter-spacing: 0.01em;
     color: #E0E0E0;
+    width: 435px;
+    margin-bottom: 32px;
 }
+
+.btn-invest{
+    background-color: #3671E9 !important;
+}
+
+.fact{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 0 1rem;
+    margin: auto;
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+.facts .count-box {
+    padding: 30px 30px 25px 30px;
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: #fff;
+  }
+  
+  .facts .count-box i {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    background: #0563bb;
+    color: #fff;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .facts .count-box span {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #011426;
+  }
+  
+.fact .count-box p {
+width: 230px;
+height: 28px;
+left: 224px;
+top: 164px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.01em;
+color: #E0E0E0;
+
+}
+
+.fact h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 109px;
+    height: 60px;
+    left: 224px;
+    top: 100px;
+}
+
+.fact .count-box{
+    width: 334px;
+    height: 92px;
+    left: 986px;
+    top: 100px;
+}
+.whyCrappo{
+    max-width: 1240px;
+    padding: 0 1rem;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 139px;
+
+}
+
+.whyCrappo .col-1 img{
+    width: 100%;
+}
+
+.chooseCrappo{
+    margin-top: 100px;
+    position: relative;
+  
+}
+.chooseCrappo img{
+    max-width: 30%;
+    position: absolute;
+    height: 550px;
+    right: 0;
+    top: -58%;
+   
+}
+
+.whyCrappo .col-2 h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 480px;
+    height: 119.95px;
+    left: 840px;
+    top: 368.97px;
+
+}
+
+.expCrypto{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+    width: 408px;
+    height: 83.96px;
+    left: 840px;
+    /* top: 512.91px; */
+    margin-bottom: 32px;
+}
+.check{
+    text-align: center;
+    color: #ffffff;
+    margin-top:200px ;
+}
+
+.check h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+
+}
+
+.harshRate{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: #E0E0E0;
+
+}
+.wrapper{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.calculate{
+    width: 942px;
+    /* height: 305px; */
+    padding: 0 1rem;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 62px;
+    padding-bottom: 55px;
+}
+
+.calculate input{
+    text-align: center;
+    width: 403px;
+    height: 38px;
+    outline: none;
+    border: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #0D0D2B;
+    mix-blend-mode: normal;
+    margin-right: 48px;
+    border-bottom: 1px solid #E0E0E0;
+
+}
+
+.calculate .selector{
+    width: 200px;
+    height: 38px;
+    outline: none;
+    border: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 150%;
+    color: #0D0D2B;
+    mix-blend-mode: normal;
+    margin-right: 48px;
+    border-bottom: 1px solid #E0E0E0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 
 .hero .container{
     max-width: 1240px;
