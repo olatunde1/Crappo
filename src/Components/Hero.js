@@ -8,17 +8,19 @@ import litcoin from '../Images/litcoin.png'
 import tradeIncrease from '../Images/tradeIncrease.png'
 import Statistic from '../Images/Statistic.png'
 import grow from '../Images/grow.png'
+import logo from '../Images/Logo.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import 'animate.css';
 import './HeroStyle.css'
 
 const Hero = () => {
   return (
     <Container>
         <Row className='hero'>
-            <Col className='col-1'>
-               <div className='wrap'>
+            <Col className='col-1  animate__animated animate__backInLeft '>
+               <div className='wrap '>
                     <p className='save'>75% SAVE</p>
                     <p className='blackFriday'>For the Black Friday Weekend</p>
                </div>
@@ -26,7 +28,7 @@ const Hero = () => {
                 <p className='buySellCrypto'>Buy and sell cryptocurrencies, trusted by 10M wallets <br /> with over $30 billion in transactions.</p>
                 <button className=' button btn-invest'>Try for FREE</button>
             </Col>
-            <Col className='col-2'> <img src={invest} /></Col>
+            <Col className='col-2 animate__animated animate__bounce'> <img src={invest} /></Col>
         </Row>
 
         <Row className='fact'>
@@ -65,7 +67,7 @@ const Hero = () => {
         </Row>
 
         <Row className='whyCrappo'>
-            <Col className='col-1'>
+            <Col className='col-1 animate__animated animate__flip'>
             <img src={whyCrappo2} />
                
             </Col>
@@ -153,45 +155,44 @@ const Hero = () => {
                 </div>
                 <div><img src={grow} alt=''/></div>
             </div>
-            <div>
-                <div className='startMining'>
-                    <div>
-                        <p className='mineNow'>Start mining now</p>
-                        <p className='joinNow'>Join now with CRAPPO to get the latest news<br /> and start mining now</p>
-                    </div>
-                    <div>
-                         <input placeholder='Enter your harsh rate'></input>
-                         <button className=' button btn-invest'>Subscribe</button>
+            <div className='wrapAll'>
+                <div className='wrapStartMining'>
+                    <div className='startMining'>
+                        <div>
+                            <p className='mineNow'>Start mining now</p>
+                            <p className='joinNow'>Join now with CRAPPO to get the latest news<br /> and start mining now</p>
+                        </div>
+                        <div className='wrapHarsh'>
+                            <input placeholder='Enter your harsh rate'></input>
+                            <button className=' button btn-subscribe'>Subscribe</button>
+                        </div>
                     </div>
                 </div>
             </div>
+            <footer>
+                <div><img src={logo} /></div>
+                <div>
+                    <h3>Quick Link</h3>
+                    <p>Home</p>
+                    <p>Products</p>
+                    <p>About</p>
+                    <p>Features</p>
+                    <p>Contact</p>
+                </div>
+                <div>
+                    <h3>Resources</h3>
+                    <p>Download Whitepapper</p>
+                    <p>Smart Token</p>
+                    <p>About</p>
+                    <p>Features</p>
+                    <p>Contact</p>
+                </div>
+                <div></div>
+            </footer>
         </Row>
 
     </Container>
  
-
-
-
-
-    // <div className='hero'>
-    //     <div className='container'>
-    //         <div className='content'>
-    //             <div className='row'>
-    //                 <div className='col-1'>
-    //                     <p>75% SAVE</p>
-    //                     <p>For the Black Friday Weekend</p>
-    //                     <h1>Fastest & secure platform to invest in crypto</h1>
-    //                     <p>Buy and sell cryptocurrencies, trusted by 10M wallets with over $30 billion in transactions.</p>
-    //                     {/* <button className='button btn-invest'>Try for FREE</button> */}
-    //                 </div>
-    //                 <div className='col-2'>
-    //                     <img src={invest} />
-    //                 </div>
-    //             </div>
-    //         </div>
-    //     </div>
-
-    // </div>
   )
 }
 

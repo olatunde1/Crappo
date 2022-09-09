@@ -591,13 +591,28 @@ opacity: 0.7;
     padding-bottom: 34px;
 }
 
-.startMining{
-    margin: 0 auto;
+.wrapAll{
+    background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+    height: 392px;
+    left: 0px;
+    top: 5079px;
+   
+}
+
+.wrapStartMining{
     width: 1200px;
+    background-color:#3671E9;
+    margin: auto;
+    margin-top: 188px;
+    padding:3rem 3rem 3rem 3rem;
+    border-radius: 1rem;
+    
+}
+
+.startMining{
     display: flex;
     text-align: start;
-    margin-top: 188px;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .startMining .mineNow{
@@ -610,13 +625,51 @@ opacity: 0.7;
     line-height: 150%;
     color: #FFFFFF;
     mix-blend-mode: normal;
+    padding-bottom: 1rem;
 }
 
+.startMining .joinNow{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
 
+.wrapHarsh{
+    position: relative;
+}
 
+.startMining input{
+    text-align: center;
+    background-color: transparent;
+    width: 403px;
+    height: 38px;
+    outline: none;
+    border: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #ffffff !important;
+    mix-blend-mode: normal;
+    margin-right: 48px;
+    border-bottom: 1px solid #E0E0E0;
+}
 
+.btn-subscribe{
+    background-color: #ffffff !important;
+    color: #0D0D2B !important;
+    font-weight: 700;
+}
 
-
+footer{
+    background-color: #0D0D2B;
+}
 
 /* 
 .hero .container{
