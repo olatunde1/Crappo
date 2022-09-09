@@ -10,9 +10,11 @@ import Statistic from '../Images/Statistic.png'
 import grow from '../Images/grow.png'
 import logo from '../Images/Logo.png'
 import paymentCards from '../Images/paymentCards.png'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import {FaInstagram, FaFacebook,FaLinkedin, FaTwitter,FaYoutube,
+    FaChartBar, FaUser,FaGlobeAmericas} from 'react-icons/fa'
 import 'animate.css';
 import './HeroStyle.css'
 
@@ -33,38 +35,42 @@ const Hero = () => {
         </Row>
 
         <Row className='fact'>
-            <div class="col-lg-3 col-md-6">
-                <div class="count-box">
-                    <i class="bi bi-emoji-smile"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
-                    <div>
-                        <h2>$30B</h2>
-                        <p>Digital Currency Exchanged</p>
+            <div class="col">
+                <div className='iconsDisplay'>
+                    <div className='iconsWrapper'>
+                    <p><FaChartBar className='icons' /></p>
                     </div>
+                    <div>
+                    <h2>$30B</h2>
+                    <p>Digital Currency Exchanged</p>
+                    </div>
+                    
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-                <div class="count-box">
-                    <i class="bi bi-journal-richtext"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="08" data-purecounter-duration="1" class="purecounter"></span>
-                    <div>
-                        <h2>10M+</h2>
-                        <p>Trusted Wallets Investor</p>
+            <div class="col">
+                <div className='iconsDisplay'>
+                    <div className='iconsWrapper'>
+                    <p><FaUser className='icons' /></p>
                     </div>
+                <div>
+                    <h2>10M+</h2>
+                    <p>Trusted Wallets Investor</p>
+                </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-                <div class="count-box">
-                    <i class="bi bi-headset"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="263" data-purecounter-duration="1" class="purecounter"></span>
+            <div class="col">
+                <div className='iconsDisplay'>
+                    <div className='iconsWrapper'>
+                        <p><FaGlobeAmericas className='icons' /></p>
+                    </div>
                     <div>
                         <h2>195</h2>
                         <p>Countries Supported</p>
                     </div>
                 </div>
-            </div>
+        </div>
         </Row>
 
         <Row className='whyCrappo'>
@@ -190,13 +196,19 @@ const Hero = () => {
                         <p>Interest</p>
                     </div>
                     <div>
-                        <h1>We accept following<br /> payment systems</h1>
+                        <h1>We accept following payment systems</h1>
                         <img src={paymentCards} alt='paymentCards' />
                     </div>
                 </div>
                 <div className='bottomFooter'>
                     <p>©2021 CRAPPO. All rights reserved</p>
-                    <p>socials icon</p>
+                    <p className='socials'>
+                        <FaFacebook  className='icon' />
+                        <FaInstagram className='icon' />
+                        <FaLinkedin  className='icon'/>
+                        <FaTwitter className='icon' />
+                        <FaYoutube className='icon' />
+                    </p>
                 </div>
             </footer>
         </Row>

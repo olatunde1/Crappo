@@ -10,6 +10,7 @@ header .navbar{
     height: 100%;
     padding: 0 1rem;
     margin: auto;
+    /* margin-top: 32px; */
     overflow: hidden;
     display: flex;
     justify-content: space-between;
