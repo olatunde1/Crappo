@@ -15,7 +15,8 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import {FaInstagram, FaFacebook,FaLinkedin, FaTwitter,FaYoutube,
     FaChartBar, FaUser,FaGlobeAmericas} from 'react-icons/fa'
-import 'animate.css';
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
+import 'animate.css'
 import './HeroStyle.css'
 
 const Hero = () => {
