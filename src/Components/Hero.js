@@ -194,6 +194,10 @@ const Hero = () => {
                         <img src={paymentCards} alt='paymentCards' />
                     </div>
                 </div>
+                <div className='bottomFooter'>
+                    <p>©2021 CRAPPO. All rights reserved</p>
+                    <p>socials icon</p>
+                </div>
             </footer>
         </Row>
 
