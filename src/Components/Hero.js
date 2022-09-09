@@ -9,6 +9,7 @@ import tradeIncrease from '../Images/tradeIncrease.png'
 import Statistic from '../Images/Statistic.png'
 import grow from '../Images/grow.png'
 import logo from '../Images/Logo.png'
+import paymentCards from '../Images/paymentCards.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -170,24 +171,29 @@ const Hero = () => {
                 </div>
             </div>
             <footer>
-                <div><img src={logo} /></div>
-                <div>
-                    <h3>Quick Link</h3>
-                    <p>Home</p>
-                    <p>Products</p>
-                    <p>About</p>
-                    <p>Features</p>
-                    <p>Contact</p>
+                <div className='subFooter'>
+                    <div><img src={logo} /></div>
+                    <div>
+                        <h3>Quick Link</h3>
+                        <p>Home</p>
+                        <p>Products</p>
+                        <p>About</p>
+                        <p>Features</p>
+                        <p>Contact</p>
+                    </div>
+                    <div>
+                        <h3>Resources</h3>
+                        <p>Download Whitepapper</p>
+                        <p>Smart Token</p>
+                        <p>Blockchain Explorer</p>
+                        <p>Crypto API</p>
+                        <p>Interest</p>
+                    </div>
+                    <div>
+                        <h1>We accept following<br /> payment systems</h1>
+                        <img src={paymentCards} alt='paymentCards' />
+                    </div>
                 </div>
-                <div>
-                    <h3>Resources</h3>
-                    <p>Download Whitepapper</p>
-                    <p>Smart Token</p>
-                    <p>About</p>
-                    <p>Features</p>
-                    <p>Contact</p>
-                </div>
-                <div></div>
             </footer>
         </Row>
 
@@ -197,3 +203,6 @@ const Hero = () => {
 }
 
 export default Hero
+
+
+
